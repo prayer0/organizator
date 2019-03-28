@@ -24,7 +24,7 @@ Kişisel projelerimde kullanılmak üzere geliştirildiği için kod yapısı, k
 ## Kurulum
 
 ```
-npm install
+npm install organizator
 ```
 
 index.html
