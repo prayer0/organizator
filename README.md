@@ -24,8 +24,6 @@ Kişisel projelerimde kullanılmak üzere geliştirildiği için kod yapısı, k
 ## Kurulum
 
 ```
-git clone https://github.com/prayer0/organizator.git
-cd js
 npm install
 ```
 
