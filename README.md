@@ -33,26 +33,28 @@ index.html
 
 ```
 <!DOCTYPE html>
-    <head>
-        <title>Organizator</title>
-    </head>
-    <body>
-        <script type="text/javascript">
+<html>
+	</head>
+		<title>Organizator Hello World</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
         var require = {
-            baseUrl: './',
+            baseUrl: './node_modules/',
             paths: {
-                text: 'js/requirejs/plugins/text',
-                json: 'js/requirejs/plugins/json',
-                route: 'js/requirejs/plugins/route',
-                controller: 'js/requirejs/plugins/controller',
-                xliff: 'js/requirejs/plugins/xliff',
-                css: 'js/requirejs/plugins/css'
+                text: 'organizator/Plugins/text',
+                json: 'organizator/Plugins/json',
+                route: 'organizator/Plugins/route',
+                controller: 'organizator/Plugins/controller',
+                xliff: 'organizator/Plugins/xliff',
+                css: 'organizator/Plugins/css'
             }
         }
         </script>
-        <script data-main="js/app.js" src="js/requirejs/require.js"></script>
-    </body>
-<html>
+		<script data-main="../app.js" src="node_modules/requirejs/require.js"></script>
+	</body>
+</html>
 ```
 
 js/app.js
