@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Emre Özdemir",
+    "email": "prayer0000@protonmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/prayer0/organizator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lokijs": "^1.5.5",
+    "requirejs": "^2.3.4",
+    "urijs": "^1.19.1"
+  },
+  "deprecated": false,
+  "description": "A web application framework that aims browser environment",
+  "devDependencies": {},
+  "directories": {
+    "example": "examples"
+  },
+  "homepage": "https://github.com/prayer0/organizator/",
+  "keywords": [
+    "javascript",
+    "framework"
+  ],
+  "license": "MIT",
+  "main": "Organizator.js",
+  "name": "organizator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prayer0/organizator.git"
+  },
+  "scripts": {},
+  "version": "1.0.5"
+}
